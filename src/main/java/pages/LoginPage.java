@@ -29,7 +29,7 @@ public class LoginPage extends BasePage {
         driver.findElement(btnLogin).click();
     }
 
-    // Reusable business action
+    // Reusable business action-------
     public void login(String username, String password) {
         enterUsername(username);
         enterPassword(password);
